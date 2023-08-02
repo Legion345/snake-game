@@ -10,6 +10,7 @@
         
         <div id="score">0</div>
         <canvas id="snakeboard" width="400" height="400"></canvas>
+        <button id="gameStart">Start Game</button>
 
         <style>
             #snakeboard {
@@ -21,6 +22,16 @@
             #score {
                 text-align: center;
                 font-size: 140px;
+            }
+            #gameStart {
+                background-color: red;
+                border: none;
+                color: azure;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
             }
         </style>
     </body>
@@ -196,5 +207,9 @@
                     snake.pop();
                 }
             }
+            
+            // TODO: Start Game
+            // TODO: Reset Button
+
     </script>
 </html>
